@@ -51,19 +51,21 @@ $ mkdir new_folder_name # creates a new folder
 ```
 - [ ] Can use the rmdir terminal command
 ```bash
-
+$ rmdir folderName
 ```
 - [ ] Can use the rm terminal command
 ```bash
-
+$ rm -r folderName
 ```
 - [ ] Can use the mv terminal command
 ```bash
-
+$ mv filename1 filename2 # renames filename1 to filename2
+$ mv filename1 ~/Documents/filename1 # moves file to Documents folder
+$ mv foldername/* . # extracts the files in the folder into the current directory
 ```
 - [ ] Can use the cp terminal command
 ```bash
-
+$ 
 ```
 - [ ] Can describe what a filesystem is
 ```bash
@@ -79,27 +81,30 @@ $ mkdir new_folder_name # creates a new folder
 ```
 - [ ] Can open a file or directory in their editor from the terminal
 ```bash
-
+$ code foldername
+$ code filename
+$ atom foldername
+$ atom filename
 ```
 - [ ] Can open a directory in the Finder.app from the terminal
 ```bash
-
+$ open foldername
 ```
 - [ ] Can open a file in its default app from the terminal
 ```bash
-
+$ open filename
 ```
 - [ ] Can use ctrl-c in the terminal
 ```bash
-
+Sends a SIGINT 
 ```
 - [ ] Can use ctrl-a in the terminal
 ```bash
-
+Moves cursor to the beginning of a line
 ```
 - [ ] Can use ctrl-e in the terminal
 ```bash
-
+ Moves cursor to the end of a line
 ```
 - [ ] Can configure a Bash shell by modifying the ~/.bashrc and ~/.bash_profile files
 ```bash
@@ -142,7 +147,7 @@ $ sudo code /etc/paths
 ```
 - [ ] Can use | (pipe) in the terminal
 ```bash
-
+cd ~/Documents && ls -a | grep fileNameToSearchFor
 ```
 - [ ] Can use > (redirect) in the terminal
 ```bash
