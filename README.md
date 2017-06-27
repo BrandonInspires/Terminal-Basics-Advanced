@@ -11,13 +11,15 @@
 ```bash
 
 ```
-- [ ] Can describe what the shell $PATH environment variable is used for
+- [x] Can describe what the shell $PATH environment variable is used for
 ```bash
-
+ PATH specifies a set of directories where executable programs are located
 ```
-- [ ] Can and modify your shell's $PATH, in the terminal
+- [x] Can and modify your shell's $PATH, in the terminal
 ```bash
-
+$ export PATH="/folder_name:$PATH" # Prepend folder to $PATH
+$ export PATH="$PATH:/folder_name" # Append folder to $PATH
+$ sudo atom /etc/paths # Edit PATH in atom (for permanance)
 ```
 - [ ] Can use the echo terminal command
 ```bash
@@ -114,11 +116,16 @@ $ alias ddg="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome http
 ```
 - [ ] Can use BASH brace expansion
 ```bash
-
+$ echo {a..z}
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+$ echo {1..10}
+1 2 3 4 5 6 7 8 9 10
 ```
 - [ ] Can set $EDITOR to their preferred editors terminal command
 ```bash
-
+$ export EDITOR=atom
+$ echo $EDITOR
+atom
 ```
 
 # Terminal Advanced
