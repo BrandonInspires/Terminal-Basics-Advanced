@@ -65,7 +65,8 @@ $ mv foldername/* . # extracts the files in the folder into the current director
 ```
 - [ ] Can use the cp terminal command
 ```bash
-$ 
+$ cp filename.txt ~/Documents/ # Copies file and preserves filename
+$ cp filename.txt ~/Documents/renamedfile.txt # Copies file and renames file
 ```
 - [ ] Can describe what a filesystem is
 ```bash
